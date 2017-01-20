@@ -1,0 +1,13 @@
+/*подключить шрифт!*/
+/*@import('./fonts/IrinaCTT.ttf')*/
+/*@import url('../fonts/IrinaCTT.ttf');*/
+
+
+@font-face {
+  font-family: 'Comix';
+  url('../fonts/IrinaCTT.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+body {
+  font-family: 'Comix', Fallback, sans-serif;
+}
