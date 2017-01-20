@@ -5,9 +5,11 @@
 
 @font-face {
   font-family: 'Comix';
-  url('../fonts/IrinaCTT.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/IrinaCTT.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/IrinaCTT.woff') format('woff'), /* Pretty Modern Browsers */
+      url('../fonts/IrinaCTT.woff2') format('woff2');  /* Super Modern Browsers */
 }
 
 body {
-  font-family: 'Comix', Fallback, sans-serif;
+  font-family: 'Comix', sans-serif;
 }
