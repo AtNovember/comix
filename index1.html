@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hover3d.css">
+    <title>Comix Fun</title>
+</head>
+
+<body style="background-image: url('http://ic.pics.livejournal.com/dzeso/5786652/214034/214034_original.png')">
+
+
+
+    <div class="container">
+        <!-- <h1 class="text-center title">Война и мир. В комиксах</h1> -->
+
+
+        <div class="movie">
+            <div class="row">
+
+                <div class="col-lg-2 col-sm-2">
+                    <h2>Часть 1.</h2>
+                </div>
+                <div class="col-lg-10 col-sm-10 ">
+                    <!-- <div class="movie"> -->
+                    <div class="movie__card wrap" style="background-image: url('http://ic.pics.livejournal.com/dzeso/5786652/215000/215000_original.png');">
+                        <p class="remark" style="top: 10px; left: 10px;">Салон Анны Павловны</p>
+                        <p class="remark col-sm-3 col-lg-2" style="top: 10px; right: 10px;">Так говорила в июле 1805 года известная Анна Павловна Шерер, фрейлина и приближенная императрицы Марии Феодоровны, встречая важного и чиновного князя Василия, первого приехавшего на ее вечер. </p>
+                        <img class="" src="https://2.bp.blogspot.com/-opRV04LGdZ4/VspUN_SFUmI/AAAAAAAAKAU/KVIg-J81TCk/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B%2528306%2529.png" alt="">
+
+                        <div class="bubble" style="top: 10%; left: 35%;">
+                            <p>Ну, здравствуйте, здравствуйте.</p>
+                        </div>
+                        <div class="bubble" style="top: 26%; left: 32%;">
+                            <p>Cадитесь и рассказывайте.</p>
+                        </div>
+
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 ">
+                    <!-- <div class="movie"> -->
+                    <div class="movie__card  wrap" style="background-image:url('http://fb.ru/misc/i/gallery/31953/1313281.jpg')">
+                        <img style="margin-left: 20%;" src="https://2.bp.blogspot.com/-NKBHbSa3-lU/VspUNzpUZ4I/AAAAAAAAKAQ/qXQdKHA5zC4/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2B%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%2B%2528308%2529.png"
+                            alt="">
+                        <p class="bubble" style="top: 10%; left: 35%;" alt="Господи, какое горячее нападение!">Dieu, quelle virulente sortie!</p>
+                        <p class="bubble" style="top: 23%; left: 37%;" alt="Прежде всего скажите, как ваше здоровье, милый друг?">Avant tout dites-moi, comment vous allez, chère amie?</p>
+                        <p class="bubble" style="top: 36%; left: 35%;">Успокойте меня</p>
+                        <p class="remark col-sm-8 col-lg-8" style="bottom: 5px; right: 10px;">отвечал, нисколько не смутясь такою встречей, вошедший князь, в придворном, шитом мундире, в чулках, башмаках и звездах, с светлым выражением плоского лица.</p>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-8 ">
+                    <!-- <div class="movie"> -->
+                    <div class="movie__card  wrap">
+                        <img style="margin-left: 65%;" src="https://pp.vk.me/c403225/v403225424/715d/2qrR4xm5m5g.jpg" alt="">
+                        <p class="bubble" style="top: 10%; left: 26%;">Как можно быть здоровой...</p>
+                        <p class="bubble" style="top: 22%; left: 27%;">когда нравственно страдаешь?</p>
+                        <p class="bubble" style="top: 34%; left: 28%;">Разве можно, имея чувство, <br/> оставаться спокойною в наше время? </p>
+                    </div>
+                    <!-- </div> -->
+                </div>
+
+                <div class="col-lg-4 col-sm-4">
+                    <h2>В середине разговора про политические действия Анна Павловна разгорячилась.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+    <script src="js/jquery.hover3d.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".movie").hover3d({
+                selector: ".movie__card",
+                shine: true,
+                sensitivity: 20,
+            });
+        })
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
