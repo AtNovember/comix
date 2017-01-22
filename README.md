@@ -1,2 +1,2 @@
-# comixfun
-Отрабатываем чувство юмора в стиле javascript
+# Comix Generator
+Made with Lego Starter Kit General blocks
