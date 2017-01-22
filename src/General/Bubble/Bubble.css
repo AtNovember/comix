@@ -1,0 +1,27 @@
+.Bubble {}
+
+/*базовые расположения*/
+
+.top {}
+
+.right {}
+
+.bottom {}
+
+.left {}
+
+
+
+/*комбо расположения говорящего*/
+
+.top-right{}
+.top-left{}
+
+.right-top {}
+.right-bottom {}
+
+.bottom-right{}
+.bottom-left{}
+
+.left-top {}
+.left-bottom {}
