@@ -1,0 +1,42 @@
+.movie {
+  margin: 0 auto;
+  /*width: 250px; */
+}
+  .movie-list:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .movie__card {
+    position: relative;
+    /*width: 250px;*/
+    /*height: 370px;*/
+    /*height: 800px;*/
+  }
+    .movie__card.hover-in {
+      transition: .3s ease-out; }
+    .movie__card.hover-out {
+      transition: .3s ease-in; }
+  .movie [class*="layer"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px; }
+  .movie .layer-1 {
+    /*background-image: url(http://ariona.github.io/hover3d/dist/images/deadpool-bg.png);*/
+    background-size: cover;
+  }
+  .movie .layer-2 {
+    /*background-image: url(http://ariona.github.io/hover3d/dist/images/deadpool.png);*/
+    background-size: cover;
+    -webkit-transform: translateZ(30px);
+            transform: translateZ(30px); }
+  .movie .layer-3 {
+    /*background-image: url(http://ariona.github.io/hover3d/dist/images/deadpool-title.png);*/
+    background-size: cover;
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px); }
+  .movie .shine {
+    /*border-radius: 10px; */
+  }
