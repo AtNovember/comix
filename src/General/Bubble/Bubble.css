@@ -1,12 +1,18 @@
 .Bubble {
+
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  display: inline-block;
+  padding: 10px 5px;
   position: relative;
-  width: 250px;
-  height: 120px;
-  padding: 0px;
-  background: #FFFFFF;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+
+  /*width: 250px;
+  height: 120px;*/
 }
 
 /*выносим "общий множитель"*/
@@ -26,28 +32,32 @@
   border-width: 0 15px 15px;
   border-color: #FFFFFF transparent;
   top: -15px;
-  left: 110px;
+  /*left: 110px;*/
+  left: 35%;
 }
 
 .right::after {
   border-width: 15px 0 15px 15px;
   border-color: transparent #FFFFFF;
   right: -15px;
-  top: 45px;
+  /*top: 45px;*/
+  top: 15%;
 }
 
 .bottom::after {
   border-width: 15px 15px 0;
   border-color: #FFFFFF transparent;
   bottom: -15px;
-  left: 110px;
+  /*left: 110px;*/
+  left: 33%;
 }
 
 .left::after {
   border-width: 15px 15px 15px 0;
   border-color: transparent #FFFFFF;
   left: -15px;
-  top: 45px;
+  /*top: 45px;*/
+  top: 15%;
 }
 
 /*комбо расположения говорящего*/
@@ -56,7 +66,8 @@
   border-width: 0 15px 15px;
   border-color: #FFFFFF transparent;
   top: -15px;
-  left: 197px;
+  /*left: 197px;*/
+  left: 50%;
 }
 
 .topLeft::after {
