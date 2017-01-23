@@ -9,168 +9,101 @@
   border-radius: 10px;
 }
 
-
 /*выносим "общий множитель"*/
 
+.Bubble::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
 
 /*базовые расположения*/
 
 .top::after {
-
-  content: '';
-  position: absolute;
-  border-style: solid;
   border-width: 0 15px 15px;
   border-color: #FFFFFF transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
   top: -15px;
   left: 110px;
 }
 
 .right::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
   border-width: 15px 0 15px 15px;
   border-color: transparent #FFFFFF;
-  display: block;
-  width: 0;
-  z-index: 1;
   right: -15px;
   top: 45px;
 }
 
-/*.bottom {}*/
 .bottom::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
   border-width: 15px 15px 0;
   border-color: #FFFFFF transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
   bottom: -15px;
   left: 110px;
 }
 
-
-
 .left::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
   border-width: 15px 15px 15px 0;
   border-color: transparent #FFFFFF;
-  display: block;
-  width: 0;
-  z-index: 1;
   left: -15px;
   top: 45px;
 }
 
-
-
 /*комбо расположения говорящего*/
 
 .topRight::after {
-  content: '';
-  position: absolute;
-  border-style: solid;
   border-width: 0 15px 15px;
   border-color: #FFFFFF transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
   top: -15px;
   left: 197px;
 }
+
 .topLeft::after {
-  content: '';
-position: absolute;
-border-style: solid;
-border-width: 0 15px 15px;
-border-color: #FFFFFF transparent;
-display: block;
-width: 0;
-z-index: 1;
-top: -15px;
-left: 22px;
+  border-width: 0 15px 15px;
+  border-color: #FFFFFF transparent;
+  top: -15px;
+  left: 22px;
 }
 
 .rightTop::after {
-  content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 0 15px 15px;
-border-color: transparent #FFFFFF;
-display: block;
-width: 0;
-z-index: 1;
-right: -15px;
-top: 15px;
-}
-.rightBottom::after {
-  content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 0 15px 15px;
-border-color: transparent #FFFFFF;
-display: block;
-width: 0;
-z-index: 1;
-right: -15px;
-top: 74px;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent #FFFFFF;
+  right: -15px;
+  top: 15px;
 }
 
-.bottomRight::after{
-  content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 0;
-border-color: #FFFFFF transparent;
-display: block;
-width: 0;
-z-index: 1;
-bottom: -15px;
-left: 197px;
+.rightBottom::after {
+  border-width: 15px 0 15px 15px;
+  border-color: transparent #FFFFFF;
+  right: -15px;
+  top: 74px;
 }
-.bottomLeft::after{
-  content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 0;
-border-color: #FFFFFF transparent;
-display: block;
-width: 0;
-z-index: 1;
-bottom: -15px;
-left: 22px;
+
+.bottomRight::after {
+  border-width: 15px 15px 0;
+  border-color: #FFFFFF transparent;
+  bottom: -15px;
+  left: 197px;
+}
+
+.bottomLeft::after {
+  border-width: 15px 15px 0;
+  border-color: #FFFFFF transparent;
+  bottom: -15px;
+  left: 22px;
 }
 
 .leftTop::after {
-  content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 15px 0;
-border-color: transparent #FFFFFF;
-display: block;
-width: 0;
-z-index: 1;
-left: -15px;
-top: 15px;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #FFFFFF;
+  left: -15px;
+  top: 15px;
 }
+
 .leftBottom::after {
-  content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 15px 0;
-border-color: transparent #FFFFFF;
-display: block;
-width: 0;
-z-index: 1;
-left: -15px;
-top: 74px;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #FFFFFF;
+  left: -15px;
+  top: 74px;
 }
