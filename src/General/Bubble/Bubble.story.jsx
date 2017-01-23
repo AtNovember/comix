@@ -19,6 +19,13 @@ module.exports = function({storiesOf, action}) {
       Я справа, и я говорю, что я справа
     </Bubble>
   ))
+  .add('Говорящий справа 2', () => (
+    <Bubble
+      speaker="right"
+    >
+      Я справа, и я говорю, что я справа
+    </Bubble>
+  ))
   .add('Говорящий слева', () => (
     <Bubble left>
       Я слева, и я говорю, что я слева
@@ -26,6 +33,16 @@ module.exports = function({storiesOf, action}) {
   ))
   .add('Bubble top', () => (
     <Bubble top>
+      я тут вверху
+    </Bubble>
+  ))
+  .add('Bubble topRight', () => (
+    <Bubble topRight>
+      я тут вверху
+    </Bubble>
+  ))
+  .add('Bubble topLeft', () => (
+    <Bubble topLeft>
       я тут вверху
     </Bubble>
   ))
