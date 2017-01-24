@@ -28,13 +28,11 @@ export default class Bubble extends Component {
       speaker = props.speaker
     }
 
-    console.log('loco ', speaker);
-    // position - позиция самого Bubble
-    // let position = {this.props.x, this.props.y}
-    // let position = {top, right, bottom, left}
-    let position = props.position ? props.position : '';
-
-    return <div styleName={"Bubble " + speaker} style={{position}}>
+    let { xtop, yright, xbottom, yleft } = this.props
+    return <div
+      styleName={"Bubble " + speaker}
+      style={{ xtop, yright, xbottom, yleft }}
+    >
       {this.props.children}
     </div>
   }
