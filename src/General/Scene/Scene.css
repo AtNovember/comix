@@ -2,6 +2,10 @@
   height: 100%;
   box-sizing: border-box;
   font-family: 'Comix', sans-serif;
+
+  background-size: cover;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .wrap {
