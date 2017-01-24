@@ -53,26 +53,6 @@ export default class Slide extends Component {
       <If condition={this.props.video}>
         {this.renderVideo(this.props.video)}
       </If>
-      {/* <If condition={this.props.video}>
-        <ReactDriveIn
-         show={this.props.video}
-        />
-      </If> */}
-      {/* <If condition={this.props.video}>
-        <div
-          styleName="video__wrapper"
-        >
-          <iframe
-            styleName="video"
-            frameborder="0"
-            allowfullscreen="1"
-            title="YouTube video player"
-            width="640"
-            height="360"
-            src={this.props.video}
-          />
-        </div>
-      </If> */}
       <If condition={this.props.image}>
         <div
           styleName='Slide__image'
