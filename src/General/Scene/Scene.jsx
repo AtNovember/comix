@@ -1,11 +1,11 @@
-import {Component, PropTypes} from 'react'
-import importcss from 'importcss'
-
-import {Col} from 'react-bootstrap'
+// import { Component, PropTypes } from 'react';
+import { Component } from 'react';
+import importcss from 'importcss';
+import { Col } from 'react-bootstrap';
 
 @importcss(require('./Scene.css'))
 export default class Scene extends Component {
-  static propTypes = {};
+  // static propTypes = {};
 
   render() {
     // width -ширина готово!
@@ -14,15 +14,13 @@ export default class Scene extends Component {
     // background
     // heros
     // bubbles
-    let wrap = this.props.wrap
-      ? 'wrap'
-      : ''
-    let movie__card = this.props.movie__card
-      ? 'movie__card'
-      : ''
-    let bg = this.props.background || this.props.bg || ''
-    let scene = <div styleName={'Scene ' + wrap + ' ' + movie__card}
-      styles={backgroundImage = url(bg)}>
+    const wrap = this.props.wrap ? 'wrap' : ''
+    const movie__card = this.props.movie__card ? 'movie__card' : ''
+    const bg = this.props.background || this.props.bg || ''
+    const scene = <div
+      styleName={'Scene ' + wrap + ' ' + movie__card}
+      style={{backgroundImage:'url(' + bg + ');'}}
+    >
       {this.props.children}
     </div>
 
