@@ -60,10 +60,8 @@ module.exports = function({storiesOf, action}) {
   .add('Bubble bottom top left', () => (
     <Bubble
       bottom
-      xtop='0%'
-      yleft='0%'
-      // right={null}
-      // bottom={null}
+      coordTop='0%'
+      coordLeft='0%'
     >
     <p>  я тут внизу   я тут вверху  я тут вверху  я тут вверху  я тут вверху</p>
       <a href='йцу'>
@@ -74,8 +72,8 @@ module.exports = function({storiesOf, action}) {
   .add('Bubble bottom bottom right', () => (
     <Bubble
       bottom
-      xbottom='0%'
-      yright='0%'
+      coordBottom='0%'
+      coordRight='0%'
       // right={null}
       // bottom={null}
     >

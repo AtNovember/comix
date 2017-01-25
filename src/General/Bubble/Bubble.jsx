@@ -28,10 +28,14 @@ export default class Bubble extends Component {
       speaker = props.speaker
     }
 
-    let { xtop, yright, xbottom, yleft } = this.props
+    const coordTop = this.props.coordTop;
+    const coordRight = this.props.coordRight;
+    const coordBottom = this.props.coordBottom;
+    const coordLeft = this.props.coordLeft;
+
     return <div
       styleName={"Bubble " + speaker}
-      style={{ xtop, yright, xbottom, yleft }}
+      style={{ top: coordTop, right: coordRight, bottom: coordBottom, left: coordLeft }}
     >
       {this.props.children}
     </div>
