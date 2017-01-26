@@ -17,12 +17,12 @@ export default class Remark extends Component {
     console.log(coordBottom, coordRight);
     const wd = this.props.width || this.props.wd || this.props.wide || 3
     return <Col xs={wd} sm={wd} md={wd} lg={wd}>
-        <div
+        <p
           styleName={'Remark'}
           style={{ top: coordTop, right: coordRight, bottom: coordBottom, left: coordLeft }}
         >
         {this.props.children}
-      </div>
+      </p>
     </Col>
   }
 }
