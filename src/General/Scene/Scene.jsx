@@ -21,7 +21,7 @@ export default class Scene extends Component {
     console.log('bg', bg);
     const scene = <div
       styleName={'Scene ' + wrap + ' ' + movie__card}
-      style={{backgroundImage: 'url('+bg+')' }}
+      style={{ backgroundImage: 'url(' + bg + ')' }}
     >
       {this.props.children}
     </div>

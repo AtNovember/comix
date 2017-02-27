@@ -70,7 +70,6 @@ module.exports = function ({ storiesOf, action }) {
         >
           Садитесь, рассказывайте!
         </Bubble>
-
       </Scene>
     ))
 }
