@@ -7,11 +7,15 @@
     "core-decorators": "^0.15.0",
     "glob-loader": "^0.2.0",
     "importcss": "^1.0.3",
+    "install": "^0.8.7",
+    "npm": "^4.3.0",
+    "nuka-carousel": "^2.0.4",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.2",
     "react-drive-in": "^1.7.3",
-    "react-icons": "^2.2.3"
+    "react-icons": "^2.2.3",
+    "react-slick": "^0.14.6"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.35.2",

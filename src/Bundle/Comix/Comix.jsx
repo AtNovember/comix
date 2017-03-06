@@ -1,16 +1,14 @@
-// import React, { Component } from 'react'
-// import Link from '../Link'
-// import importcss from 'importcss'
-//
-// @importcss(require('./A.css'))
-// export default class A extends Component {
-//   render() {
-//     const bsStyle = this.props.bsStyle || 'primary'
-//     const className = [
-//       this.props.className || '',
-//       this.props.styles && this.props.styles.A,
-//       this.props.styles && this.props.styles['A_style_' + bsStyle],
-//     ].join(' ')
-//     return <Link {...this.props} className={className} href={this.props.href || this.props.to} />
-//   }
-// }
+import React, { Component } from 'react'
+import importcss from 'importcss'
+import { Grid } from 'react-bootstrap'
+
+@importcss(require('./Comix.css'))
+export default class Comix extends Component {
+  render() {
+    return <div styleName='Comix'>
+      <Grid>
+        {this.props.children}
+      </Grid>
+    </div>
+  }
+}
