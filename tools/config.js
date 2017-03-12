@@ -7,10 +7,15 @@ const ctx = {
   dirname,
   pkg: require('../package.json'),
   deps: [
+    {
+      name: 'lego-starter-kit',
+      path: fs.realpathSync(dirname + '/src'),
+      alias: 'lego-starter-kit',
+    }
   ],
   alias: {
+    // 'lego-starter-kit': fs.realpathSync(dirname + '/src'),
     react: fs.realpathSync(dirname + '/node_modules/react'),
-    'react-dom': fs.realpathSync(dirname + '/node_modules/react-dom'),
   },
 }
 export default ctx

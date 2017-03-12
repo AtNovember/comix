@@ -1,0 +1,20 @@
+/*.root{
+  text-align: center;
+  font-size: 18pt;
+}*/
+
+/*@import url('&components/_vars.css');*/
+/*@import url('../_vars.css');*/
+@font-face {
+  font-family: 'Comix';
+  src: url('./fonts/IrinaCTT.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('./fonts/IrinaCTT.woff') format('woff'), /* Pretty Modern Browsers */
+      url('./fonts/IrinaCTT.woff2') format('woff2');  /* Super Modern Browsers */
+}
+
+.root {
+  /*height: 100%;
+  box-sizing: border-box;*/
+  /*font-size: 18pt;*/
+  font-family: 'Comix', sans-serif;
+}
