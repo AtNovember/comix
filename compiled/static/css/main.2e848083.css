@@ -342,9 +342,9 @@ $sk-button:#c4c8cf;
 
 @font-face {
   font-family: Comix;
-  src: url(/static/media/IrinaCTT.279dda23.ttf) format("truetype"),
-  url(/static/media/IrinaCTT.dce139c0.woff) format("woff"),
-  url(/static/media/IrinaCTT.305553bd.woff2) format("woff2")
+  src: url(./static/media/IrinaCTT.279dda23.ttf) format("truetype"),
+  url(./static/media/IrinaCTT.dce139c0.woff) format("woff"),
+  url(./static/media/IrinaCTT.305553bd.woff2) format("woff2")
 }
 
 .root {
